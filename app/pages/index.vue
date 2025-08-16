@@ -4,9 +4,6 @@ import Clocktz from '../sections/Clocktz.vue'
 
 <template>
   <main class="flex-center h-screen">
-    <Head>
-      <title>ClockTZ</title>
-    </Head>
     <Clocktz />
   </main>
 </template>

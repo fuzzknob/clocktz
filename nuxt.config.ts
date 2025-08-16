@@ -3,6 +3,17 @@ export default defineNuxtConfig({
   modules: ['@nuxt/ui', '@nuxt/eslint', '@vueuse/nuxt'],
   ssr: false,
   devtools: { enabled: true },
+  app: {
+    head: {
+      title: 'ClockTZ',
+      htmlAttrs: {
+        lang: 'en',
+      },
+      link: [
+        { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      ],
+    },
+  },
   css: ['~/global.css'],
   ui: {
     prefix: '',
